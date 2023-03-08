@@ -11,7 +11,7 @@ font
 }
 
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 th, td {
@@ -25,11 +25,46 @@ body{
 }
 #center
 {
-    width: 800px;
-    margin: auto;
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background: whitesmoke;
+    margin: 50px auto;
+    padding: 30px;
+    color: #000000;
+    
+
+
 }
 #photo
 {
     width: 150x;
     height: 150px;
+}
+#objective
+{
+    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 30px 10 10px;
+}
+#education
+{
+    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 30px 10 10px;
+
+}
+
+#skills
+{
+    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 30px 10 10px;
+
 }
