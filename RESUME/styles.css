@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(249, 249, 252);
+    color: black;
     font-weight: bold;
 }
 
@@ -11,15 +11,15 @@ font
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
 }
 th, td {
     padding: 15px;
 }
 body{
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
+    background-color: gray;
+    color: black;
     font-size: 20px;
     
 }
@@ -28,10 +28,10 @@ body{
     min-height: 200px;
     width: 60%;
     min-width: 600px;
-    background: whitesmoke;
+    background: black;
     margin: 50px auto;
     padding: 30px;
-    color: #000000;
+    color: white;
     
 
 
@@ -43,7 +43,7 @@ body{
 }
 #objective
 {
-    border: 1px solid black;
+    border: 2px solid white;
     text-transform: uppercase;
     padding: 5px;
     border-radius: 8px;
@@ -51,7 +51,7 @@ body{
 }
 #education
 {
-    border: 1px solid black;
+    border: 2px solid white;
     text-transform: uppercase;
     padding: 5px;
     border-radius: 8px;
@@ -61,10 +61,47 @@ body{
 
 #skills
 {
-    border: 1px solid black;
+    border: 2px solid white;
     text-transform: uppercase;
     padding: 5px;
     border-radius: 8px;
     margin: 30px 10 10px;
 
+}
+
+#projects
+{
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 30px 10 10px;
+
+}
+
+#extracurriculars
+{
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 30px 10 10px;
+}
+
+#certificates
+{
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 30px 10 10px;
+}
+
+#personalinfo
+{
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 30px 10 10px;
 }
